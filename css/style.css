@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: gold;
+}
+.img-box{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+img{
+    display: block;
+    object-fit: contain;
+}
+.back-btn{
+    position: sticky;
+    top: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background: gold;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+}
+h6{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
